@@ -1,0 +1,25 @@
+{
+  "name": "hei-card-game",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^25.0.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "cli": "bun run src/cli/index.ts",
+    "gui": "cd src/gui && bun run dev",
+    "test": "bun test src/core",
+    "test:watch": "bun test src/core --watch"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.2.0",
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "ora": "^9.0.0"
+  }
+}
