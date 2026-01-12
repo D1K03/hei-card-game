@@ -16,6 +16,7 @@ Bun is used as the JavaScript Runtime.
 **More Information**
 - [Bun Docs](https://bun.com/docs/installation)
 
+**Getting Started**
 1. Install Dependencies (Root)
 - ```bun install```
 
