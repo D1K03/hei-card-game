@@ -1,10 +1,19 @@
 ## Design Decisions
 
+### Features
+1. Model a standard 52 card deck
+2. Implement some mechanism for shuffling the deck
+3. Create rule(s) for the game
+4. Build a simple CLI based UI to play it
+5. Add 2 Jokers to deck
+6. Add a GUI based UI
+
 ### Architecture: Shared Core Module for CLI and GUI
 The game logic is in `src/core/` and is imported by both CLI and GUI. This ensures:
 - **Single source of truth**: Game rules are defined once, reducing bugs from inconsistent implementations.
 - **Testability**: Easier to test for the core game logic.
 - **Separation of concerns**: UI does not affect the functionality of the game.
+- **Fisher-Yates Shuffle Algorithm**: Used this algorithm as its the standard for randomness and efficient time complexity of O(N) linear time.
 
 ### Fixed State Pattern
 `GameState` is readonly and all state transitions return new objects rather than mutating:
