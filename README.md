@@ -23,7 +23,7 @@ Requires Bun, installed from [Bun](https://bun.com/)
 ```bun run cli```
 
 3. Run GUI (Vite -> Web Browser)
-```cd src/gui```
-```bun install```
-```cd ../..```
-```bun run gui```
+- ```cd src/gui```
+- ```bun install```
+- ```cd ../..```
+- ```bun run gui```
