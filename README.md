@@ -8,7 +8,7 @@ Bun is used as the JavaScript Runtime.
 Requires Bun, installed from [Bun](https://bun.com/)
 
 **Windows**
-```powershell -c "irm bun.sh/install.ps1 | iex"``
+```powershell -c "irm bun.sh/install.ps1 | iex"```
 
 **Linux & macOS**
 ```curl -fsSL https://bun.sh/install | bash```
