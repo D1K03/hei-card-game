@@ -17,10 +17,10 @@ Requires Bun, installed from [Bun](https://bun.com/)
 [Bun Docs](https://bun.com/docs/installation)
 
 1. Install Dependencies (Root)
-```bun install```
+- ```bun install```
 
 2. Run CLI (Terminal)
-```bun run cli```
+- ```bun run cli```
 
 3. Run GUI (Vite -> Web Browser)
 - ```cd src/gui```
